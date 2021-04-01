@@ -10,19 +10,18 @@ input, button, input:checked {
 }
 
 body {
-  color: #333;
   font-family: 'Work Sans', sans-serif;
-  background-color: rgba(255, 255, 255, 0.9);
   color: white;
+  height: 100vh;
 }
 
 #container {
-  width: 30%;
   height: 315px;
-  background-color: #04395e;
-  border-radius: 20px;
-  color: white;
+  min-width: 350px;
   margin: auto;
+  width: 30%;
+  background-color: #5c5e90;
+  border-radius: 20px;
   padding: 10px;
   transition: all 800ms cubic-bezier(0.25, 0.1, 0, 0.98);
   overflow: hidden;
@@ -77,7 +76,7 @@ body {
   --i: .7;
   background-color: rgba(255, 255, 255, var(--i));
   border: none;
-  color: #04395e;
+  color: #5c5e90;
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 300ms cubic-bezier(1, 0.55, 1, 0.79);
 }
@@ -97,15 +96,15 @@ body {
 
 .title {
   text-align: center;
-  padding: 40px 0px 20px 0px;
-  background-color: rgba(4, 57, 94, 0.85);
+  padding: 20px;
+  background-color: #5c5e90;
   margin-bottom: 50px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #password-generated {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
   position: relative;
 }
 
@@ -117,10 +116,13 @@ body {
 
 #password-generated input {
   width: 30%;
+  min-width: 350px;
+  margin: auto;
+  width: 30%;
   height: 40px;
   border-radius: 20px;
   padding-left: 10px;
-  background-color: rgba(4, 57, 94, 0.85);
+  background-color: rgba(92, 94, 144, 0.85);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: inherit;
   font-family: inherit;
